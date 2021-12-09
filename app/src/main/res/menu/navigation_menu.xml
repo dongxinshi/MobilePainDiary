@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add_fragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pain entry" />
+        <item
+            android:id="@+id/nav_view_fragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="report" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="map" />
+
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@drawable/ic_menu_map"
+            android:title="clock" />
+    </group>
+</menu>

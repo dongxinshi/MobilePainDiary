@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.HomeFragment"
+        android:label="@string/menu_home_fragment"
+        tools:layout="@layout/home_fragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.AddFragment"
+        android:label="@string/menu_add_fragment"
+        tools:layout="@layout/add_fragment" />
+
+    <fragment
+        android:id="@+id/nav_view_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.ViewFragment"
+        android:label="@string/menu_view_fragment"
+        tools:layout="@layout/view_fragment" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.ask"
+        android:label="Map"
+        tools:layout="@layout/ask" />
+
+    <activity
+        android:id="@+id/nav_clock"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.Clock"
+        android:label="Clock"
+        tools:layout="@layout/activity_clock" />
+
+</navigation>
